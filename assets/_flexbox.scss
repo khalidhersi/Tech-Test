@@ -1,9 +1,4 @@
-.nav  {
+body {
     display: flex;
-    .nav___logo {
-
-    };
-    .nav_btn {
-
-    };
-};
+    flex-direction: column;
+}
