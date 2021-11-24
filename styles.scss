@@ -1,0 +1,14 @@
+@import "./assets/_nav.scss";
+@import "./assets/_header.scss";
+@import "./assets/_flexbox.scss";
+@import "./assets/_main.scss";
+@import "./assets/_section.scss";
+@import "./assets/_grid.scss";
+@import "./assets/_typography.scss";
+@import "./assets/_variations.scss";
+@import "./assets/_buttons.scss";
+
+* {
+    box-sizing: border-box;
+    font-family: $primary-font-family;
+}

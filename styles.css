@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav___logo {
+  position: relative;
+  left: 2em;
+  font-size: 1.5em;
+}
+.nav .nav_btn {
+  width: 120px;
+  height: 50px;
+  background: linear-gradient(180deg, #E1A0A0 0%, #E68181 100%);
+  box-shadow: 0px 10px 40px #6B3838;
+  border-radius: 7px;
+}
+
+.nav {
+  display: flex;
+}
+body {
+  background-color: #232229;
+  color: #FFFFFF;
+}
+
+.nav_btn {
+  width: 120px;
+  height: 50px;
+  background-color: pink;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
