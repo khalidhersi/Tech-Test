@@ -1,0 +1,25 @@
+{
+  "name": "tech-test",
+  "version": "1.0.0",
+  "description": "Tech test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalidhersi/Tech-Test.git"
+  },
+  "author": "khalid hersi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalidhersi/Tech-Test/issues"
+  },
+  "homepage": "https://github.com/khalidhersi/Tech-Test#readme",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1"
+  }
+}
