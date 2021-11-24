@@ -1,0 +1,12 @@
+@import "./_variations.scss";
+
+.section-task {
+  position: relative;
+  top: 450px;
+  margin: 0 10%;
+
+  .section__p {
+    color: $tertiary-color;
+    padding-top: 21px;
+  }
+}

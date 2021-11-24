@@ -1,17 +1,19 @@
+@import "./_variations.scss";
+
 .header {
-    display: flex;
-    position: absolute;
-    top: 222px;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    padding: 0 27px;
+  display: flex;
+  position: absolute;
+  top: 222px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 10%;
 
-    .header__title {
-        margin-bottom: 1em;
-    }
+  .header__title {
+    margin-bottom: 0.5em;
+  }
 
-    .header__p{
-        color: $tertiary-color;
-    }
+  .header__p {
+    color: $tertiary-color;
+  }
 }
