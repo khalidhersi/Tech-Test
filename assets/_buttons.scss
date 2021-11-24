@@ -1,3 +1,5 @@
+@import "./_variations.scss";
+
 .nav__btn {
     width: 120px;
     height: 50px;
@@ -10,3 +12,17 @@
     color: $secondary-color;
     font-size: bold;
 };
+
+.main__submit {
+    background: linear-gradient(180deg, #E1A0A0 0%, #E68181 100%);
+    border-radius: 10em;
+    border-style: none;
+    height: 20px;
+    width: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: $primary-color;
+    position: relative;
+    bottom: 40px;
+    left: 90%
+}

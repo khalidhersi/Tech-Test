@@ -64,12 +64,17 @@ body {
 
 .section-task {
   position: relative;
-  top: 450px;
+  top: 350px;
   margin: 0 10%;
 }
 .section-task .section__p {
   color: #6C6A7C;
   padding-top: 21px;
+}
+
+body {
+  background-color: #232229;
+  color: #FFFFFF;
 }
 
 body {
@@ -88,6 +93,20 @@ body {
   right: 1em;
   color: #FFFFFF;
   font-size: bold;
+}
+
+.main__submit {
+  background: linear-gradient(180deg, #E1A0A0 0%, #E68181 100%);
+  border-radius: 10em;
+  border-style: none;
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #232229;
+  position: relative;
+  bottom: 40px;
+  left: 90%;
 }
 
 * {
